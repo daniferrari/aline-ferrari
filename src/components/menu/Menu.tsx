@@ -9,7 +9,7 @@ function Menu() {
     <div className="Menu">
       <h1>Aline</h1>
       <img src={logo} alt="Logo" />
-      <img className="sanduiche" src={sanduiche} alt=""/>
+      <img className="sanduiche" src={sanduiche} alt="Icone do menu"/>
     </div>
   );
 }

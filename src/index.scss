@@ -1,8 +1,11 @@
 @import 'styles/colors';
 
-body {
+* {
   margin: 0;
   padding: 0;
-  background-color: $primary-background;
   box-sizing: border-box;
+}
+
+body {
+  background-color: $primary-background;
 }

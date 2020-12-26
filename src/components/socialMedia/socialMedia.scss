@@ -1,0 +1,33 @@
+@import '../../styles/colors';
+
+.socialMedia {
+    background-color: $female-dark;
+    height: 55px;
+    width: 100%;
+    color: $cloud;
+
+    > .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 800px;
+        height: 100%;
+
+        > div {
+            display: flex;
+            align-items: center;
+
+            > p {
+                font-family: Open Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 16px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-left: 5px;
+            }
+        }
+
+    }
+}
