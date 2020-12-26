@@ -1,0 +1,28 @@
+.Menu {
+    display: flex;
+    height: 68px;
+    align-items: center;
+    justify-content: space-between;
+
+    > h1 {
+        font-family: 'Sacramento', cursive;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 18px;
+    }
+
+    > img {
+        width: 55px;
+        height: 51px;
+    }
+
+    > .sanduiche {
+        width: 35px;
+        height: 35px;
+        padding: 18px;
+    }
+}
