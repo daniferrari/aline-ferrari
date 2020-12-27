@@ -1,0 +1,17 @@
+@import '../../styles/colors';
+
+.contact {
+    background-color: $male-light;
+    padding: 28px 0;
+
+    h2 {
+        font-family: Bebas Neue;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+        text-align: left;    
+        color: $male-dark;
+        text-align: center;
+    }
+}

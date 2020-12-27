@@ -7,6 +7,8 @@ import Expertise from './components/expertise/Expertise';
 import MidiaContent from './components/midiaContent/MidiaContent';
 import Introduction from './components/introduction/Introduction';
 import ClinicInformation from './components/clinicInformation/ClinicInformation';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <MidiaContent />
         <Introduction />
         <ClinicInformation />
+        <Contact />
+        <Footer />
       </header>
     </div>
   );
