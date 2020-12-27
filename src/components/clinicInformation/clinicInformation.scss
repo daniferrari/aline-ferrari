@@ -2,15 +2,44 @@
 
 .clinicInformation {
     padding: 22px 0;
+    background-color: $male-light;
     
-    h2 {
-        color: $female-dark;
+    > h2 {
+        color: $male-dark;
         font-family: Bebas Neue;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
         line-height: 29px;
         text-align: left;    
-        text-align: center;    
+        text-align: center; 
+        margin-bottom: 30px;   
+    }
+
+    > div {
+        > h6 {
+            color: $male-dark;
+            font-family: 'Sacramento', cursive;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 29px;
+            text-align: left;    
+            text-align: center; 
+            margin-bottom: 30px;  
+        }
+    }
+
+    .map {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 30px 0;
+
+        div {
+            width: 80%;
+            height: 400px;
+            max-width: 700px;
+        }
     }
 }

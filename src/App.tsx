@@ -16,9 +16,9 @@ function App() {
       <header className="App-header">
         <Menu />
         <SocialMedia />
+        <Introduction />
         <Expertise />
         <MidiaContent />
-        <Introduction />
         <ClinicInformation />
         <Contact />
         <Footer />
