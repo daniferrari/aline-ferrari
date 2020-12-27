@@ -27,6 +27,27 @@
             text-align: center; 
             margin-bottom: 30px;  
         }
+
+        p {
+            font-family: Open Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            text-align: center;
+            color: $black;
+        }
+
+        .webSite {
+            display: flex;
+            justify-content: center;
+            
+            img {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+        }
     }
 
     .map {
