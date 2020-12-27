@@ -7,7 +7,7 @@ import sanduiche from '../../assets/icons/menu.svg';
 function Menu() {
   return (
     <div className="Menu">
-      <h1>Aline</h1>
+      <h1>Dra. Aline</h1>
       <img src={logo} alt="Logo" />
       <img className="sanduiche" src={sanduiche} alt="Icone do menu"/>
     </div>

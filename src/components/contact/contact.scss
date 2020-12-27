@@ -3,15 +3,47 @@
 .contact {
     background-color: $cloud;
     padding: 28px 0;
+    font-family: Bebas Neue;
 
     h2 {
-        font-family: Bebas Neue;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
         line-height: 29px;
         text-align: left;    
-        color: $male-dark;
+        color: $female-dark;
         text-align: center;
+    }
+
+    form {
+        > .formItem {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 80%;
+            max-width: 400px;
+            margin: 10px auto;
+            text-align: left;
+
+            label {
+                margin-bottom: 5px;
+            }
+
+            input, textArea {
+                border-radius: 5px; 
+                background: $female-light;
+                border-color: $female-dark;
+                padding: 5px;
+
+                &:hover {
+                    border-color: $female-dark;
+                }
+
+                &:focus, &:active, &:visited {
+                    border-color: $female-dark;
+                }
+            }
+        }
     }
 }
