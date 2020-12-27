@@ -1,10 +1,15 @@
 @import '../../styles/colors';
 
 .footer {
-    background-color: $male-light;
+    background-color: $female-dark;
     padding: 28px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $cloud;
 
-    h2 {
+    > h2 {
         font-family: Bebas Neue;
         font-size: 24px;
         font-style: normal;
@@ -13,5 +18,34 @@
         text-align: left;    
         color: $male-dark;
         text-align: center;
+    }
+
+    > div {
+        display: flex;
+        width: 150px;
+        margin-bottom: 20px;
+        align-items: center;
+
+        > p {
+            margin-left: 5px;
+            font-family: Open Sans;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        img {
+            width: 26px;
+            height: 26px;
+        }
+
+        &.author {
+            > p {
+                margin-right: 5px;
+            }
+        }
     }
 }
