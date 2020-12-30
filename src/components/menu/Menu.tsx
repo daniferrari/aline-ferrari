@@ -36,8 +36,12 @@ class Menu extends React.Component<{}, { openMenu: boolean }> {
         <div className="menuContainer">
           <div className="menuHeader">
             <h1>Dra. Aline</h1>
-            <img src={logo} alt="Logo" />
-            <img onClick={this.click} className="sanduiche" src={sanduiche} alt="Icone do menu"/>
+            <div>
+              <img src={logo} alt="Logo" />
+            </div>
+            <div className="menuButton">
+              <img onClick={this.click} className="sanduiche" src={sanduiche} alt="Icone do menu"/>
+            </div>
           </div>
     
           { this.state.openMenu ? <div className="menuContent">

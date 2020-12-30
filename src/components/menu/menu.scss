@@ -17,24 +17,32 @@
     
             > h1 {
                 font-family: 'Sacramento', cursive;
-                font-size: 30px;
+                font-size: 25px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 44px;
                 letter-spacing: 0em;
                 text-align: left;
-                margin-left: 18px;
+                padding-left: 18px;
+                width: 210px;
             }
         
-            > img {
-                width: 55px;
-                height: 51px;
+            div {
+                > img {
+                    width: 55px;
+                    height: 51px;
+                }
             }
         
-            > .sanduiche {
-                width: 35px;
-                height: 35px;
-                margin-right: 18px;
+            > .menuButton {
+                width: 210px;
+                display: flex;
+                justify-content: flex-end;
+                > .sanduiche {
+                    width: 35px;
+                    height: 35px;
+                    margin-right: 18px;
+                }
             }
         }
     
