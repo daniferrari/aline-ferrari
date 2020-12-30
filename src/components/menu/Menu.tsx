@@ -20,6 +20,16 @@ class Menu extends React.Component<{}, { openMenu: boolean }> {
     }))
   }
 
+  goToTarget = (target: string) => {
+    const element = document.getElementById(target);
+    if (element) {
+      element.scrollIntoView();
+    } 
+    this.setState(state => ({
+      openMenu: false
+    }))
+  }
+
   render () {
     return (
       <div className="Menu">
@@ -32,11 +42,11 @@ class Menu extends React.Component<{}, { openMenu: boolean }> {
     
           { this.state.openMenu ? <div className="menuContent">
             <ul>
-              <li>Sobre</li>
-              <li>Especialidades</li>
-              <li>Na Mídia</li>
-              <li>Marque sua consulta</li>
-              <li>Entre em contato</li>
+              <li onClick={() => {this.goToTarget('introduction')}}>Sobre</li>
+              <li onClick={() => {this.goToTarget('expertise')}}>Especialidades</li>
+              <li onClick={() => {this.goToTarget('midia')}}>Na Mídia</li>
+              <li onClick={() => {this.goToTarget('apointment')}}>Marque sua consulta</li>
+              <li onClick={() => {this.goToTarget('contact')}}>Entre em contato</li>
             </ul>
           </div> : null  }
         </div>

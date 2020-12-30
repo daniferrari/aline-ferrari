@@ -10,7 +10,7 @@ function Expertise () {
     });
     
     return (
-        <div className="expertise">
+        <div id="expertise" className="expertise">
             <h2>ESPECIALIDADES</h2>
 
             <div className="itemsContainer">

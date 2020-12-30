@@ -3,7 +3,7 @@ import './midiaContent.scss';
 
 function MidiaContent () {
     return (
-        <div className="midiaContent">
+        <div id="midia" className="midiaContent">
             <h2>NA MÍDIA</h2>
 
             <div className="item">
