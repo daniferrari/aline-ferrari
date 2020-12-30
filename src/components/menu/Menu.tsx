@@ -33,7 +33,7 @@ class Menu extends React.Component<{}, { openMenu: boolean }> {
   render () {
     return (
       <div className="Menu">
-        <div className="menuContainer">
+        <div className="mobileMenu">
           <div className="menuHeader">
             <h1>Dra. Aline</h1>
             <div>
@@ -53,6 +53,17 @@ class Menu extends React.Component<{}, { openMenu: boolean }> {
               <li onClick={() => {this.goToTarget('contact')}}>Entre em contato</li>
             </ul>
           </div> : null  }
+        </div>
+
+        {/* menu para maiores resoluções */}
+        <div className="deskMenu">
+          <ul>
+            <li onClick={() => {this.goToTarget('introduction')}}>Sobre</li>
+            <li onClick={() => {this.goToTarget('expertise')}}>Especialidades</li>
+            <li onClick={() => {this.goToTarget('midia')}}>Na Mídia</li>
+            <li onClick={() => {this.goToTarget('apointment')}}>Marque sua consulta</li>
+            <li onClick={() => {this.goToTarget('contact')}}>Entre em contato</li>
+          </ul>
         </div>
       </div>
     )
