@@ -9,13 +9,15 @@
     > .container {
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         max-width: 800px;
         height: 100%;
+        margin: 0 auto;
 
         > div {
             display: flex;
             align-items: center;
+            cursor: pointer;
 
             > p {
                 font-family: Open Sans;
@@ -27,7 +29,9 @@
                 text-align: left;
                 margin-left: 5px;
             }
+            &:hover {
+                color: $female-light;
+            }
         }
-
     }
 }

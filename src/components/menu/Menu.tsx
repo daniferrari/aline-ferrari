@@ -8,7 +8,7 @@ class Menu extends React.Component<{}, { openMenu: boolean }> {
 
   constructor (props: any) {
     super(props)
-    this.state = { openMenu: true };
+    this.state = { openMenu: false };
 
     this.click = this.click.bind(this);
   }

@@ -22,9 +22,10 @@
 
     > div {
         display: flex;
-        width: 150px;
+        width: 160px;
         margin-bottom: 20px;
         align-items: center;
+        cursor: pointer;
 
         > p {
             margin-left: 5px;
@@ -43,9 +44,18 @@
         }
 
         &.author {
+            cursor: default;
             > p {
                 margin-right: 5px;
             }
+
+            > img {
+                height: 21px;
+            }
+        }
+
+        &:hover {
+            color: $female-light;
         }
     }
 }
