@@ -21,8 +21,6 @@ function MidiaContent () {
                     <div className="item">
                         <h3>VOCÊ SABE O QUE É PREMATURIDADE?</h3>
 
-                        <h3>E AS CAUSAS DA PREMATURIDADE?</h3>
-
                         <p>
                             Os bebês prematuros são considerados aqueles que nascem antes de 37 semanas de gestação. <br/>
                             A prematuridade extrema são os bebezinhos que nascem com menos de 28 semanas de gestação e por esse motivo inspiram cuidados intensivos.<br/>
