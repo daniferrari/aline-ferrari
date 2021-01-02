@@ -8,12 +8,15 @@
         width: 100%;
         position: fixed;
         background-color: $cloud;
+        z-index: 1;
     
         > .menuHeader {
             display: flex;
             align-items: center;
             justify-content: space-between;
             height: 68px;
+            z-index: 0;
+            background: $cloud;
     
             > h1 {
                 font-family: 'Sacramento', cursive;
@@ -51,6 +54,9 @@
             background-color: $cloud;
             height: 190px;
             width: 100%;
+            position: relative;
+            animation: menu 1s forwards;
+            z-index: -1;
     
             ul {
                 font-family: Open Sans;
@@ -106,5 +112,14 @@
             }
         }
     }
+}
 
+@keyframes menu {
+    from {
+        top: -200px;
+        opacity: 0;
+    } to {
+        top: 0px;
+        opacity: 1;
+    }
 }

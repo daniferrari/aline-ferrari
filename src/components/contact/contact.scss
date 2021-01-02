@@ -32,16 +32,38 @@
 
             input, textArea {
                 border-radius: 5px; 
-                background: $female-light;
+                background: #f3ced78a;
                 border-color: $female-dark;
                 padding: 5px;
+                border: 1px solid $female-dark;
 
                 &:hover {
-                    border-color: $female-dark;
+                    background-color: #f3ced759;
                 }
 
                 &:focus, &:active, &:visited {
-                    border-color: $female-dark;
+                    border: 1px solid $female-light;
+                    outline: none;
+                }
+            }
+        }
+
+        > .buttonContainer {
+            font-family: Bebas Neue;
+            button {
+                margin-top: 15px;
+                background-color: $female-dark;
+                padding: 7px 17px;
+                border-radius: 5px;
+                color: $cloud;
+                border: none;
+                font-size: 16px;
+
+                &:hover {
+                    background-color: $female-medium;
+                }
+                &:focus, &:active, &:visited {
+                    outline: none;
                 }
             }
         }
