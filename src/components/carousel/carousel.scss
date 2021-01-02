@@ -1,7 +1,7 @@
 @import '../../styles/colors';
 
 .carouselContainer {
-    > .carousel {
+    &.carousel {
         background-color: #f3ced71c;
         color: $female-dark;
     
