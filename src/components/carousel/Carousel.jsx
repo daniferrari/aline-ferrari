@@ -16,7 +16,7 @@ function CarouselFunction () {
     };
 
     return (
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel activeIndex={index} onSelect={handleSelect} className="carouselContainer">
             <Carousel.Item>
                 <img src={aline1} alt="Foto de Aline"/>
                 <Carousel.Caption>

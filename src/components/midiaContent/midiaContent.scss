@@ -15,7 +15,7 @@
         margin-bottom: 20px;
     }
 
-    > .item { 
+    .item { 
         h3 {
             background-color: $female-dark;
             color: $cloud;
@@ -26,6 +26,7 @@
             font-weight: 400;
             margin: 0 auto;
             margin-bottom: 20px;
+            font-variant: to-upper-case;
         }
 
         > p {
@@ -38,6 +39,24 @@
             max-width: 700px;
             margin: 0 auto;
             color: $black;
+            padding: 10px 20px;
+            text-align: justify;
+        }
+    }
+
+    > .carousel {
+        color: $female-dark;
+
+        .carousel-control-prev-icon {
+            height: 40px;
+            width: 40px;
+            background-image: url('../../assets/icons/arrow-left.svg');
+        }
+
+        .carousel-control-next-icon {
+            height: 40px;
+            width: 40px;
+            background-image: url('../../assets/icons/arrow-right.svg');
         }
     }
 
