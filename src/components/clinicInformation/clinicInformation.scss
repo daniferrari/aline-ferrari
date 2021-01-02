@@ -3,7 +3,7 @@
 .clinicInformation {
     padding: 22px 0;
     background-color: $male-light;
-    
+
     > h2 {
         color: $male-dark;
         font-family: Bebas Neue;
@@ -15,7 +15,8 @@
         text-align: center; 
     }
 
-    > div {
+    
+    .clinicItem {
         > h6 {
             color: $male-dark;
             font-family: 'Sacramento', cursive;
@@ -27,7 +28,7 @@
             margin: 40px 0 30px 0;  
         }
 
-        p {
+        > p {
             font-family: Open Sans;
             font-size: 16px;
             font-style: normal;
@@ -37,16 +38,22 @@
             color: $black;
         }
 
-        .webSite {
+        > .webSite {
             display: flex;
             justify-content: center;
+            color: $male-dark;
+            cursor: pointer;
             
             img {
                 width: 20px;
                 height: 20px;
                 margin-right: 10px;
             }
-        }
+
+            &:hover {
+                color: $male-medium
+            }
+        } 
     }
 
     .map {

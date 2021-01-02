@@ -17,16 +17,19 @@
 
     .item { 
         h3 {
-            background-color: $female-dark;
             color: $cloud;
             padding: 5px;
-            width: fit-content;
+            width: 350px;
             font-family: Bebas Neue;
             font-size: 20px;
             font-weight: 400;
             margin: 0 auto;
             margin-bottom: 20px;
             font-variant: to-upper-case;
+            background-image: url(../../assets/images/title-background.svg);
+            background-repeat: no-repeat;
+            height: 60px;
+            line-height: 60px;
         }
 
         > p {

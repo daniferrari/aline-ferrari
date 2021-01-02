@@ -19,6 +19,10 @@
             align-items: center;
             cursor: pointer;
 
+            > img {
+                width: 24px;
+            }
+
             > p {
                 font-family: Open Sans;
                 font-size: 12px;

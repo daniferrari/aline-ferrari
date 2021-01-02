@@ -19,9 +19,9 @@ function Footer () {
                 <p>@alineferrari8</p>
             </div>
 
-            <div onClick={() => {window.location.href = "mailto:user@example.com?subject=Subject&body=message%20goes%20here";}}>
+            <div onClick={() => {window.location.href = "mailto:aline.cristina.melo.ferrari@gmail.com?subject=Subject&body=message%20goes%20here";}}>
                 <img src={email} alt="Icone de e-mail"/>
-                <p>alinecri@yahoo.com.br</p>
+                <p>aline.cristina.melo.ferrari@gmail.com</p>
             </div>
 
             <div className="author">

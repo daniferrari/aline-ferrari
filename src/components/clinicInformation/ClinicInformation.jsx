@@ -14,13 +14,16 @@ function ClinicInformation () {
             <h2>MARQUE SUA CONSULTA</h2>
 
             <div className="Fada">
-                <h6>Clinica Fada Saúde</h6>
-                <p>Rua Dr. Adhemar Figueiredo Lima, 75 </p>
-                <p>Vila Industrial - São José dos Campos - SP</p>
 
-                <div className="webSite">
-                    <img src={earth} alt="Icone de site"/>
-                    <p>https://clinicafadasaude.com.br/ </p>
+                <div className="clinicItem">
+                    <h6>Clinica Fada Saúde</h6>
+                    <p>Rua Dr. Adhemar Figueiredo Lima, 75 </p>
+                    <p>Vila Industrial - São José dos Campos - SP</p>
+
+                    <div className="webSite" onClick={() => {window.location.href = "https://clinicafadasaude.com.br/";}}>
+                        <img src={earth} alt="Icone de site"/>
+                        <p>https://clinicafadasaude.com.br/</p>
+                    </div>
                 </div>
 
                 <div className="map">
@@ -30,13 +33,16 @@ function ClinicInformation () {
             </div>
 
             <div className="techTower">
-                <h6>Centro Médico Tech Tower</h6>
-                <p>Av. Dr. Nelson d'Ávila, 1837</p>
-                <p>Jardim Sao Dimas, São José dos Campos - SP</p>
 
-                <div className="webSite">
-                    <img src={earth} alt="Icone de site"/>
-                    <p>https://clinicafadasaude.com.br/ </p>
+                <div className="clinicItem">
+                    <h6>Centro Médico Tech Tower</h6>
+                    <p>Av. Dr. Nelson d'Ávila, 1837</p>
+                    <p>Jardim Sao Dimas, São José dos Campos - SP</p>
+
+                    <div className="webSite" onClick={() => {window.location.href = "https://centromedicotechtower.com.br/";}}>
+                        <img src={earth} alt="Icone de site"/>
+                        <p>https://centromedicotechtower.com.br/</p>
+                    </div>
                 </div>
 
                 <div className="map">
@@ -45,13 +51,16 @@ function ClinicInformation () {
             </div>
 
             <div className="santaCasa">
-                <h6>Clínica Centro - Santa Casa</h6>
-                <p>Rua Vilaça, 554</p>
-                <p>Centro, São José dos Campos - SP</p>
 
-                <div className="webSite">
-                    <img src={earth} alt="Icone de site"/>
-                    <p>https://www.santacasasjc.com.br</p>
+                <div className="clinicItem">
+                    <h6>Clínica Centro - Santa Casa</h6>
+                    <p>Rua Vilaça, 554</p>
+                    <p>Centro, São José dos Campos - SP</p>
+
+                    <div className="webSite" onClick={() => {window.location.href = "https://www.santacasasjc.com.br";}}>
+                        <img src={earth} alt="Icone de site"/>
+                        <p>https://www.santacasasjc.com.br</p>
+                    </div>
                 </div>
 
                 <div className="map">
