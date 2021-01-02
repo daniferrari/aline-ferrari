@@ -3,7 +3,7 @@ import './expertise.scss';
 
 function Expertise () {
 
-    let expertiseData =  ['Endometriose', 'Insersão de DIU', 'Anticoncepção', 'Partos'];
+    let expertiseData =  ['Endometriose', 'Insersão de DIU', 'Anticoncepção', 'Partos', 'Anticoncepção', 'Partos'];
 
     let teste = expertiseData.map((item, index) => {
         return (<div key={index}>{item}</div>);
