@@ -4,8 +4,12 @@ import './contact.scss';
 function Contact () {
 
     const sendEmail = (e) => {
-        console.log("enviar")
         e.preventDefault();
+        var yourMessage = document.getElementById("message").value;
+        var subject = document.getElementById("name").value + ' - Contato com a Doutora Aline';
+        document.location.href = "mailto:chrisgreg23@googlemail.com?subject="
+            + encodeURIComponent(subject)
+            + "&body=" + encodeURIComponent(yourMessage);
     }
 
     return (
@@ -19,10 +23,10 @@ function Contact () {
                     <input name="name" id="name" type="text" placeholder="Nome" required=""/>
                 </div>
 
-                <div className="formItem">
+                {/* <div className="formItem">
                     <label htmlFor="email">*E-mail:</label>
                     <input name="email" id="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="E-mail" required=""/>
-                </div>
+                </div> */}
 
                 <div className="formItem">
                     <label htmlFor="message">*Mensagem:</label>
