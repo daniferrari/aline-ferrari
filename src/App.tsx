@@ -10,19 +10,20 @@ import ClinicInformation from './components/clinicInformation/ClinicInformation'
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 
+import CarouselFunction from './components/carousel/Carousel';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Menu />
-        <SocialMedia />
-        <Introduction />
-        <Expertise />
-        <MidiaContent />
-        <ClinicInformation />
-        <Contact />
-        <Footer />
-      </header>
+      <Menu />
+      <SocialMedia />
+      <CarouselFunction/>
+      <Introduction />
+      <Expertise />
+      <MidiaContent />
+      <ClinicInformation />
+      <Contact />
+      <Footer />
     </div>
   );
 }
