@@ -1,21 +1,31 @@
 @import '../../styles/colors';
 
-.carouselContainer {
-    &.carousel {
-        background-color: #f3ced71c;
-        color: $female-dark;
-    
-        .carousel-control-prev-icon {
-            height: 40px;
-            width: 40px;
-            background-image: url('../../assets/icons/arrow-left.svg');
+.carouselIntroduction {
+    background-color: #f3ced71c;
+
+    .carouselContainer {    
+        &.carousel {
+            color: $female-dark;
+            margin: 0 auto;
+        
+            .carousel-control-prev-icon {
+                height: 40px;
+                width: 40px;
+                background-image: url('../../assets/icons/arrow-left.svg');
+            }
+        
+            .carousel-control-next-icon {
+                height: 40px;
+                width: 40px;
+                background-image: url('../../assets/icons/arrow-right.svg');
+            }
+        
         }
-    
-        .carousel-control-next-icon {
-            height: 40px;
-            width: 40px;
-            background-image: url('../../assets/icons/arrow-right.svg');
-        }
-    
+    }
+}
+
+@media (min-width: 760px){ 
+    .carouselContainer {
+        max-width: 1400px;
     }
 }
