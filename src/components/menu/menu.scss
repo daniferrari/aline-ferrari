@@ -55,6 +55,7 @@
             height: 190px;
             width: 100%;
             position: relative;
+            top: -200px;
             animation: menu 1s forwards;
             z-index: -1;
     
@@ -114,6 +115,29 @@
                     &:hover {
                         color: $female-medium;
                     }
+
+                    &.menuLogo {
+                        display: flex;
+    
+                        > .menuTitle {
+                            font-family: Sacramento;
+                            font-size: 30px;
+                            font-weight: 400;
+                            text-align: left;
+                            margin: auto 0;
+                            padding-top: 5px;
+                        }
+    
+                        > img {
+                            margin-left: 10px;
+                            width: 65px;
+                            height: 60px;
+                        }
+                        &:hover {
+                            color: $female-dark;
+                            cursor: default;
+                        }    
+                    }
                 }
             }
         }
@@ -124,8 +148,10 @@
     from {
         top: -200px;
         opacity: 0;
+        display: none;
     } to {
         top: 0px;
         opacity: 1;
+        display: block;
     }
 }
