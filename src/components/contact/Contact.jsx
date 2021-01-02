@@ -7,7 +7,7 @@ function Contact () {
         e.preventDefault();
         var yourMessage = document.getElementById("message").value;
         var subject = document.getElementById("name").value + ' - Contato com a Doutora Aline';
-        document.location.href = "mailto:chrisgreg23@googlemail.com?subject="
+        document.location.href = "mailto:draalineferrarigo@gmail.com?subject="
             + encodeURIComponent(subject)
             + "&body=" + encodeURIComponent(yourMessage);
     }

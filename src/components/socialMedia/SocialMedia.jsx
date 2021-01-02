@@ -17,9 +17,9 @@ function SocialMedia () {
                     <img src={instagram} alt="Logo do Instagram"/>  
                     <p>@alineferrari8</p>
                 </div>
-                <div className="email" onClick={() => {window.location.href = "mailto:aline.cristina.melo.ferrari@gmail.com?subject=Subject&";}}>
+                <div className="email" onClick={() => {window.location.href = "mailto:draalineferrarigo@gmail.com?subject=Subject&";}}>
                     <img src={email} alt="Icone de email"/>  
-                    <p>aline.cristina.melo.ferrari@gmail.com</p>
+                    <p>draalineferrarigo@gmail.com</p>
                 </div>
             </div>
         </div>
