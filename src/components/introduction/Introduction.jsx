@@ -10,7 +10,7 @@ function Introduction () {
         
             <div>
                 {/* <img src={logo} alt="logo da doutora Aline"/> */}
-                <h2>Dra. Aline Ferrari</h2>
+                <h2>QUEM SOU EU</h2>
                 <p>
                     <span className="firstLetter">S</span>ou formada em medicina pela universidade federal de santa catarina e resolvi fazer especialização em ginecologia e obstetricia no ultimo ano 
                     da faculdade, por perceber que essa especialidade nos permite atuar em diversos ramos diferentes, cuidar de maneira mais global da saude da mulher 
