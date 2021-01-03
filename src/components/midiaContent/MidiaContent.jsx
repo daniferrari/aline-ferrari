@@ -17,7 +17,7 @@ function MidiaContent () {
     return (
         <div id="midia" className="midiaContent">
             <Carousel activeIndex={index} onSelect={handleSelect}>
-                <Carousel.Item>
+                <Carousel.Item interval={15000}>
                     <div className="item">
                         <h3>VOCÊ SABE O QUE É PREMATURIDADE?</h3>
 
@@ -39,7 +39,7 @@ function MidiaContent () {
                         </p>
                     </div>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={15000}>
                     <div className="item">
                         <h3>O que é pessário vaginal?</h3>
 
@@ -62,7 +62,7 @@ function MidiaContent () {
                         </p>
                     </div>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={15000}>
                     <div className="item">
                         <h3>Voce sabe o que é prolapso vaginal?</h3>
 

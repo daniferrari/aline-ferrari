@@ -34,14 +34,19 @@
                 }
 
                 > .carouselInfo {
+                    margin-bottom: 20px;
+                    
                     > p {
                         padding: 0 10px;
+                        color: $black;
                     }
                     > h5 {
-                        margin-top: 20px;
+                        width: 400px;
+                        margin-bottom: 20px;
                     }
 
                     > img {
+                        margin-bottom: 10px;
                         width: 100px;
                     }
                 }
