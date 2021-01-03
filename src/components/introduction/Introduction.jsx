@@ -2,12 +2,14 @@ import React from 'react';
 import './introduction.scss';
 
 import aline1 from '../../assets/images/aline1.png';
+import logo from '../../assets/images/logo.png';
 
 function Introduction () {
     return (
         <div id="introduction" className="Introduction">
         
             <div>
+                <img src={logo} alt="logo da doutora Aline"/>
                 <h2>Dra. Aline Ferrari</h2>
                 <p>
                     <span className="firstLetter">S</span>ou formada em medicina pela universidade federal de santa catarina e resolvi fazer especialização em ginecologia e obstetricia no ultimo ano 
