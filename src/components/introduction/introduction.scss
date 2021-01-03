@@ -2,11 +2,12 @@
 
 .Introduction {
     padding: 22px 0 0 0;
+    padding: 0 20px;
 
     > div {
         padding: 0 30px;
         width: 100%;
-        max-width: 600px;
+        max-width: 620px;
         margin: 0 auto;
         
         h2 {
@@ -31,12 +32,21 @@
             letter-spacing: 0em;
             text-align: center;
             color: $black;
+            text-align: center;
+            padding-bottom: 20px;
+
+            .firstLetter {
+                font-size: 35px;
+                color: $female-dark;
+            }
         }
     }
-
-    img {
-        width: 242px;
-        height: auto;
+    .introductionImg {
+        align-self: flex-end;
+        img {
+            width: 242px;
+            height: auto;
+        }
     }
 }
 

@@ -9,10 +9,19 @@ function Introduction () {
         
             <div>
                 <h2>Dra. Aline Ferrari</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.</p>
+                <p>
+                    <span className="firstLetter">S</span>ou formada em medicina pela universidade federal de santa catarina e resolvi fazer especialização em ginecologia e obstetricia no ultimo ano 
+                    da faculdade, por perceber que essa especialidade nos permite atuar em diversos ramos diferentes, cuidar de maneira mais global da saude da mulher 
+                    e fazer parte de um dos momentos mais lindos na vida das pessoas, o nascimento de seus filhos. <br />
+
+                    Minha especialização foi realizada no hospital municipal jose de carvalho florence na cidade de São Jose dos Campos,
+                    no qual tive a oportunidade de aprender muito. <br />
+
+                    Tento estar sempre estudando e buscando atualização para melhor ajudar minhas pacientes.
+                </p>
             </div>
 
-            <div>
+            <div className="introductionImg">
                 <img src={aline1} alt="Foto de Aline"/>
             </div>
 
