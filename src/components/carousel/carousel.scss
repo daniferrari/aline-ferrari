@@ -27,6 +27,10 @@
                 margin: 0 auto;
                 width: 85%;
                 flex-wrap: wrap;
+
+                img {
+                    width: 400px;
+                }
             }
         }
     }
@@ -38,7 +42,7 @@
     }
 }
 
-@media (max-width: 760px){ 
+@media (max-width: 870px){ 
     .carouselContainer {
         .carouselItem {
             flex-direction: column-reverse;
