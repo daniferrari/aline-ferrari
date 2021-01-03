@@ -20,7 +20,7 @@ function Contact () {
 
                 <div className="formItem">
                     <label htmlFor="name">*Nome:</label>
-                    <input name="name" id="name" type="text" placeholder="Nome" required=""/>
+                    <input name="name" id="name" type="text" required="true"/>
                 </div>
 
                 {/* <div className="formItem">
@@ -30,7 +30,7 @@ function Contact () {
 
                 <div className="formItem">
                     <label htmlFor="message">*Mensagem:</label>
-                    <textarea rows="6" name="message" id="message" type="text" placeholder="Mensagem" required=""/>
+                    <textarea rows="6" name="message" id="message" type="text" required="true"/>
                 </div>
 
                 <div className="buttonContainer">

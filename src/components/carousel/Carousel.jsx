@@ -24,7 +24,7 @@ function CarouselFunction () {
                 <Carousel.Item>
 
                     <div className="carouselItem">
-                        <img src={aline2} alt="Foto de Aline"/>
+                        {/* <img src={aline2} alt="Foto de Aline"/> */}
 
                         <div className="carouselInfo">
                             <img src={logo} alt="logo da doutora Aline"/>
@@ -42,7 +42,7 @@ function CarouselFunction () {
                 <Carousel.Item>
 
                     <div className="carouselItem">
-                        <img src={aline1} alt="Foto de Aline"/>
+                        {/* <img src={aline1} alt="Foto de Aline"/> */}
 
                         <div className="carouselInfo">
                             <img src={cancerMama} alt="logo da doutora Aline"/>
