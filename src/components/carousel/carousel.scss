@@ -20,6 +20,14 @@
                 background-image: url('../../assets/icons/arrow-right.svg');
             }
         
+            .carouselItem {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                width: 85%;
+                flex-wrap: wrap;
+            }
         }
     }
 }
@@ -27,5 +35,19 @@
 @media (min-width: 760px){ 
     .carouselContainer {
         max-width: 1400px;
+    }
+}
+
+@media (max-width: 760px){ 
+    .carouselContainer {
+        .carouselItem {
+            flex-direction: column-reverse;
+            position: relative;
+
+            .carouselInfo {
+                position: relative;
+                top: 66px;
+            }
+        }
     }
 }
