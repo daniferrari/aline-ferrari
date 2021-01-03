@@ -23,9 +23,10 @@
             .carouselItem {
                 display: flex;
                 justify-content: center;
+                justify-self: center;
+                align-content: center;
                 align-items: center;
                 margin: 0 auto;
-                width: 85%;
                 flex-wrap: wrap;
 
                 img {
@@ -47,6 +48,7 @@
         .carouselItem {
             flex-direction: column-reverse;
             position: relative;
+            width: 85%;
 
             .carouselInfo {
                 position: relative;
