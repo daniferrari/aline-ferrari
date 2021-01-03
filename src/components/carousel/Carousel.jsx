@@ -6,6 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 //Images
 import aline1 from '../../assets/images/aline1.png';
+import aline2 from '../../assets/images/aline2.png';
 
 function CarouselFunction () {
 
@@ -19,7 +20,7 @@ function CarouselFunction () {
         <div className="carouselIntroduction">
             <Carousel activeIndex={index} onSelect={handleSelect} className="carouselContainer">
                 <Carousel.Item>
-                    <img src={aline1} alt="Foto de Aline"/>
+                    <img src={aline2} alt="Foto de Aline"/>
                     <Carousel.Caption>
                     <h3>First slide label</h3>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
