@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import './menu.scss';
 
 import logo from '../../assets/images/logo.png';
@@ -13,6 +14,23 @@ class Menu extends React.Component<{}, { openMenu: boolean }> {
     this.click = this.click.bind(this);
   }
 
+  componentDidMount() {
+    document.addEventListener('click', this.handleClickOutside);
+  }
+
+  componentWillUnmount() {
+      document.removeEventListener('click', this.handleClickOutside);
+  }
+
+  handleClickOutside = (event: any) => {
+      const domNode = ReactDOM.findDOMNode(this);
+
+      if (!domNode || !domNode.contains(event.target)) {
+          this.setState({
+            openMenu: false
+          });
+      }
+  }
 
   click = () => {
     this.setState(state => ({
