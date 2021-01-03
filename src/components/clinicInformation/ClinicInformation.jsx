@@ -13,9 +13,9 @@ function ClinicInformation () {
         <div id="apointment" className="clinicInformation">
             <h2>MARQUE SUA CONSULTA</h2>
 
-            <div className="Fada">
+            <div className="Fada clinicItem">
 
-                <div className="clinicItem">
+                <div>
                     <h6>Clinica Fada Saúde</h6>
                     <p>Rua Dr. Adhemar Figueiredo Lima, 75 </p>
                     <p>Vila Industrial - São José dos Campos - SP</p>
@@ -32,9 +32,9 @@ function ClinicInformation () {
 
             </div>
 
-            <div className="techTower">
+            <div className="techTower clinicItem">
 
-                <div className="clinicItem">
+                <div>
                     <h6>Centro Médico Tech Tower</h6>
                     <p>Av. Dr. Nelson d'Ávila, 1837</p>
                     <p>Jardim Sao Dimas, São José dos Campos - SP</p>
@@ -50,9 +50,9 @@ function ClinicInformation () {
                 </div>
             </div>
 
-            <div className="santaCasa">
+            <div className="santaCasa clinicItem">
 
-                <div className="clinicItem">
+                <div>
                     <h6>Clínica Centro - Santa Casa</h6>
                     <p>Rua Vilaça, 554</p>
                     <p>Centro, São José dos Campos - SP</p>

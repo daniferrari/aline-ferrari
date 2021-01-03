@@ -1,7 +1,7 @@
 @import '../../styles/colors';
 
 .clinicInformation {
-    padding: 22px 0;
+    padding: 30px 20px;
     background-color: $male-light;
 
     > h2 {
@@ -17,43 +17,56 @@
 
     
     .clinicItem {
-        > h6 {
-            color: $male-dark;
-            font-family: 'Sacramento', cursive;
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 29px;
-            text-align: left;    
-            text-align: center; 
-            margin: 40px 0 30px 0;  
-        }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        border-radius: 15px;
+        max-width: 800px;
+        margin: 30px auto;
+        background-color: $cloud;
+        box-shadow: 2px 3px 4px #5698AE;
 
-        > p {
-            font-family: Open Sans;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 22px;
-            text-align: center;
-            color: $black;
-        }
-
-        > .webSite {
-            display: flex;
-            justify-content: center;
-            color: $male-dark;
-            cursor: pointer;
-            
-            img {
-                width: 20px;
-                height: 20px;
-                margin-right: 10px;
+        > div {
+            width: 400px;
+            > h6 {
+                color: $male-dark;
+                font-family: 'Sacramento', cursive;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 29px;
+                text-align: left;    
+                text-align: center; 
+                margin: 40px 0 30px 0;  
             }
-
-            &:hover {
-                color: $male-medium
+    
+            > p {
+                font-family: Open Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+                text-align: center;
+                color: $black;
             }
-        } 
+    
+            > .webSite {
+                display: flex;
+                justify-content: center;
+                color: $male-dark;
+                cursor: pointer;
+                
+                img {
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 10px;
+                }
+    
+                &:hover {
+                    color: $male-medium
+                }
+            } 
+        }
     }
 
     .map {
@@ -65,9 +78,18 @@
 
         div {
             width: 80%;
-            height: 400px;
+            max-width: 200px;
+            height: 200px;
             max-width: 700px;
             box-shadow: 2px 3px 4px $male-medium;
+        }
+    }
+}
+
+@media (min-width: 500px){
+    .clinicInformation {
+        .map {
+            width: 350px;
         }
     }
 }

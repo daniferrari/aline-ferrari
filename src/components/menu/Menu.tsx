@@ -59,8 +59,8 @@ class Menu extends React.Component<{}, { openMenu: boolean }> {
         <div className="deskMenu">
           <ul>
             <li className="menuLogo">
-              <p className="menuTitle">Dra. Aline</p>
               <img src={logo} alt="Logo" />
+              <p className="menuTitle">Dra. Aline</p>
             </li>
             <li onClick={() => {this.goToTarget('introduction')}}>Sobre</li>
             <li onClick={() => {this.goToTarget('expertise')}}>Especialidades</li>
