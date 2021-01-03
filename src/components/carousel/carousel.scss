@@ -30,7 +30,20 @@
                 flex-wrap: wrap;
 
                 img {
-                    width: 400px;
+                    width: 300px;
+                }
+
+                > .carouselInfo {
+                    > p {
+                        padding: 0 10px;
+                    }
+                    > h5 {
+                        margin-top: 20px;
+                    }
+
+                    > img {
+                        width: 100px;
+                    }
                 }
             }
         }
@@ -40,6 +53,11 @@
 @media (min-width: 760px){ 
     .carouselContainer {
         max-width: 1400px;
+        .carouselInfo {
+            > img {
+                width: 150px;
+            }
+        }
     }
 }
 
@@ -50,9 +68,18 @@
             position: relative;
             width: 85%;
 
+            > img {
+                width: 400px;
+            }
+
             .carouselInfo {
                 position: relative;
                 top: 66px;
+
+                > img {
+                    display: none;
+                    width: 150px;
+                }
             }
         }
     }
