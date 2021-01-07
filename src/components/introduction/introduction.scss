@@ -5,7 +5,7 @@
     > .content {
         padding: 0 30px;
         width: 100%;
-        background-image: linear-gradient(#e49ab01f, white);
+        background-image: radial-gradient(#e49ab01a, white);
         max-width: 700px;
 
         img {
@@ -48,6 +48,7 @@
 
     }
     .introductionImg {
+        background-image: radial-gradient(#e49ab03b, white);
         align-self: flex-end;
         img {
             width: 242px;
@@ -62,6 +63,7 @@
         min-width: 450px;
         align-items: center;
         justify-content: center;
+        background-image: radial-gradient(#e49ab01a, white);
 
         > div {
             width: initial;
@@ -69,6 +71,10 @@
         }
 
         > .content {
+            background-image: none;
+        }
+
+        .introductionImg { 
             background-image: none;
         }
     }
