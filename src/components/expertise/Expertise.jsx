@@ -13,7 +13,7 @@ function Expertise () {
         <div id="expertise" className="expertise">
             <h2>AREAS DE ATUAÇÃO</h2>
 
-            <div className="itemsContainer">
+            <div className="itemsContainer hidden">
                 {teste}
             </div>
         </div>

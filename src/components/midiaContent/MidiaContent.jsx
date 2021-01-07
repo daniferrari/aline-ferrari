@@ -18,7 +18,7 @@ function MidiaContent () {
         <div id="midia" className="midiaContent">
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item interval={15000}>
-                    <div className="item">
+                    <div className="item hidden">
                         <h3>VOCÊ SABE O QUE É PREMATURIDADE?</h3>
 
                         <p>

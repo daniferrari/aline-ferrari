@@ -13,6 +13,36 @@ import Footer from './components/footer/Footer';
 import CarouselFunction from './components/carousel/Carousel';
 
 function App() {
+
+  var animateHTML = function() {
+    var elems:any, windowHeight:any;
+    
+    var init = function() {
+      elems = document.getElementsByClassName("hidden");
+      windowHeight = window.innerHeight;
+      _addEventHandlers();
+    }
+    
+    var _addEventHandlers = function() {
+        window.addEventListener("scroll", _checkPosition);
+        window.addEventListener("resize", init)
+    }
+    var _checkPosition = function() {
+      for ( var i = 0; i < elems.length; i++ ) {
+        var posFromTop = elems[i].getBoundingClientRect().top;
+        if ( posFromTop - windowHeight <= 0) {
+          elems[i].className = elems[i].className.replace( "hidden", "fade-in" );
+        }
+      }    
+    }
+    
+    return {
+      init: init
+    }
+  }
+
+  animateHTML().init();
+
   return (
     <div className="App">
       <Menu />

@@ -52,6 +52,14 @@
                 color: $female-dark;
             }
         }
+
+        &.hidden {
+            animation: fade-in 2s;
+        }
+    
+        &.fade-in {
+            animation: fade-in 2s;
+        }
     }
 
     > .carousel {
@@ -80,4 +88,9 @@
             margin: 0 auto;
         }
     }
+}
+
+@keyframes fade-in {
+    from {opacity: 0; transform: scale(.7,.7)}
+    to {opacity: 1;}
 }

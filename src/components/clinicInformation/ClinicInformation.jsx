@@ -13,7 +13,7 @@ function ClinicInformation () {
         <div id="apointment" className="clinicInformation">
             <h2>CLÍNICAS QUE ATENDO</h2>
 
-            <div className="Fada clinicItem">
+            <div className="Fada clinicItem hidden">
 
                 <div>
                     <h6>Clinica Fada Saúde</h6>
@@ -32,7 +32,7 @@ function ClinicInformation () {
 
             </div>
 
-            <div className="techTower clinicItem">
+            <div className="techTower clinicItem hidden">
 
                 <div>
                     <h6>Centro Médico Tech Tower</h6>
@@ -50,7 +50,7 @@ function ClinicInformation () {
                 </div>
             </div>
 
-            <div className="santaCasa clinicItem">
+            <div className="santaCasa clinicItem hidden">
 
                 <div>
                     <h6>Clínica Centro - Santa Casa</h6>
