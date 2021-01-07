@@ -11,15 +11,15 @@ function SocialMedia () {
             <div className="container">
                 <div onClick={() => {window.location.href = "https://www.facebook.com/aline.ferrari.9887";}}>
                     <img src={facebook} alt="Logo do Facebook"/>
-                    <p>/aline.ferrari.9887</p>
+                    {/* <p>/aline.ferrari.9887</p> */}
                 </div>
                 <div onClick={() => {window.location.href = "https://www.instagram.com/alineferrari8/";}}>
                     <img src={instagram} alt="Logo do Instagram"/>  
-                    <p>@alineferrari8</p>
+                    {/* <p>@alineferrari8</p> */}
                 </div>
                 <div className="email" onClick={() => {window.location.href = "mailto:draalineferrarigo@gmail.com?subject=Subject&";}}>
                     <img src={email} alt="Icone de email"/>  
-                    <p>draalineferrarigo@gmail.com</p>
+                    {/* <p>draalineferrarigo@gmail.com</p> */}
                 </div>
             </div>
         </div>

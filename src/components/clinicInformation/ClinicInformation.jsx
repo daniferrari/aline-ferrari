@@ -11,7 +11,7 @@ function ClinicInformation () {
 
     return (
         <div id="apointment" className="clinicInformation">
-            <h2>MARQUE SUA CONSULTA</h2>
+            <h2>CLÍNICAS QUE ATENDO</h2>
 
             <div className="Fada clinicItem">
 

@@ -2,6 +2,7 @@
 
 .midiaContent {
     padding: 32px 0;
+    display: none;
     
     h2 {
         color: $female-dark;
@@ -71,8 +72,11 @@
 }
 
 @media (min-width: 760px){ 
-    .carousel {
-        max-width: 900px;
-        margin: 0 auto;
+    .midiaContent {
+        display: block;
+        .carousel {
+            max-width: 900px;
+            margin: 0 auto;
+        }
     }
 }

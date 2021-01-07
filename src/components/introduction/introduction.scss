@@ -1,20 +1,18 @@
 @import '../../styles/colors';
 
 .Introduction {
-    padding: 22px 0 0 0;
-    padding: 0 20px;
 
-    > div {
+    > .content {
         padding: 0 30px;
         width: 100%;
-        max-width: 620px;
-        margin: 0 auto;
+        background-image: linear-gradient(#e49ab01f, white);
+        max-width: 700px;
 
         img {
             margin-top: 20px;
         }
-        
-        h2 {
+
+        > h2 {
             font-family: Bebas Neue;
             font-size: 20px;
             font-style: normal;
@@ -23,11 +21,11 @@
             text-align: left;    
             color: $female-dark;
             text-align: center;
-            margin: 20px 0;
-            margin-top: 50px;
+            padding: 50px 0 20px 0;
         }
 
-        p {
+        > p {
+            max-width: 620px;
             font-family: Open Sans;
             font-size: 16px;
             font-style: normal;
@@ -39,12 +37,15 @@
             text-align: center;
             padding-bottom: 20px;
             text-align: justify;
+            margin: 0 auto;
+            padding-bottom: 40px;
 
             .firstLetter {
                 font-size: 35px;
                 color: $female-dark;
             }
         }
+
     }
     .introductionImg {
         align-self: flex-end;
@@ -58,15 +59,17 @@
 @media (min-width: 800px){
     .Introduction {
         display: flex;
-        flex-direction: row-reverse;
         min-width: 450px;
         align-items: center;
         justify-content: center;
 
-
         > div {
             width: initial;
             margin: 0;
+        }
+
+        > .content {
+            background-image: none;
         }
     }
 }

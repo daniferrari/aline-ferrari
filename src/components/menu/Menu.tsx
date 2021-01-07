@@ -66,8 +66,8 @@ class Menu extends React.Component<{}, { openMenu: boolean }> {
             <ul>
               <li onClick={() => {this.goToTarget('introduction')}}>Sobre</li>
               <li onClick={() => {this.goToTarget('expertise')}}>Especialidades</li>
-              <li onClick={() => {this.goToTarget('midia')}}>Na Mídia</li>
-              <li onClick={() => {this.goToTarget('apointment')}}>Marque sua consulta</li>
+              <li onClick={() => {this.goToTarget('midia')}}>Conteúdos</li>
+              <li onClick={() => {this.goToTarget('apointment')}}>Clínicas que atendo</li>
               <li onClick={() => {this.goToTarget('contact')}}>Entre em contato</li>
             </ul>
           </div> : null  }
@@ -82,8 +82,8 @@ class Menu extends React.Component<{}, { openMenu: boolean }> {
             </li>
             <li onClick={() => {this.goToTarget('introduction')}}>Sobre</li>
             <li onClick={() => {this.goToTarget('expertise')}}>Especialidades</li>
-            <li onClick={() => {this.goToTarget('midia')}}>Na Mídia</li>
-            <li onClick={() => {this.goToTarget('apointment')}}>Marque sua consulta</li>
+            <li onClick={() => {this.goToTarget('midia')}}>Conteúdos</li>
+            <li onClick={() => {this.goToTarget('apointment')}}>Clínicas que atendo</li>
             <li onClick={() => {this.goToTarget('contact')}}>Entre em contato</li>
           </ul>
         </div>

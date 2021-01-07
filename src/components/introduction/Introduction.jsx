@@ -7,8 +7,12 @@ import logo from '../../assets/images/logo.png';
 function Introduction () {
     return (
         <div id="introduction" className="Introduction">
+
+            <div className="introductionImg">
+                <img src={aline1} alt="Foto de Aline"/>
+            </div>
         
-            <div>
+            <div className="content">
                 {/* <img src={logo} alt="logo da doutora Aline"/> */}
                 <h2>QUEM SOU EU</h2>
                 <p>
@@ -21,10 +25,6 @@ function Introduction () {
 
                     Tento estar sempre estudando e buscando atualização para melhor ajudar minhas pacientes.
                 </p>
-            </div>
-
-            <div className="introductionImg">
-                <img src={aline1} alt="Foto de Aline"/>
             </div>
 
         </div>

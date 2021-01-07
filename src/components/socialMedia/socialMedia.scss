@@ -10,7 +10,7 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        max-width: 800px;
+        max-width: 170px;
         height: 100%;
         margin: 0 auto;
         flex-wrap: wrap;
@@ -19,6 +19,7 @@
             display: flex;
             align-items: center;
             cursor: pointer;
+            width: 21px;
 
             > img {
                 width: 24px;
