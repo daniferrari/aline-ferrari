@@ -8,6 +8,15 @@ function Introduction () {
     return (
         <div id="introduction" className="Introduction">
 
+            <div className="triangle triangle1"></div>
+            <div className="triangle triangle2"></div>
+
+            <div className="triangle triangle3"></div>
+            <div className="triangle triangle4"></div>
+
+            <div className="triangle triangle5"></div>
+            <div className="triangle triangle6"></div>
+
             <div className="introductionImg">
                 <img src={aline1} alt="Foto de Aline"/>
             </div>

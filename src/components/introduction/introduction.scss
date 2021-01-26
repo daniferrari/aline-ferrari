@@ -1,6 +1,64 @@
 @import '../../styles/colors';
 
 .Introduction {
+    position: relative;
+    max-width: 100vw;
+    overflow: hidden;
+
+    .triangle {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: $female-dark;
+
+        &.triangle1 {
+            top: -50px;
+            left: -50px;
+            transform: rotate(45deg);
+        }
+        &.triangle2 {
+            top: -50px;
+            right: -50px;
+            transform: rotate(45deg);
+        }
+
+        &.triangle3 {
+            width: 200px;
+            height: 200px;
+            top: 55px;
+            right: -100px;
+            transform: rotate(45deg);
+            opacity: 0.5;
+            background-color: $female-medium;
+        }
+        
+        &.triangle4 {
+            width: 200px;
+            height: 200px;
+            top: 55px;
+            left: -100px;
+            transform: rotate(45deg);
+            opacity: 0.5;
+            background-color: $female-medium;
+        }
+
+        &.triangle5 {
+            bottom: -74px;
+            left: -46px;
+            transform: rotate(45deg);
+            width: 150px;
+            height: 150px;
+        }
+
+        &.triangle6 {
+            bottom: -74px;
+            right: -46px;
+            transform: rotate(45deg);
+            width: 150px;
+            height: 150px;
+        }
+    }
+
 
     > .content {
         padding: 0 30px;
@@ -77,5 +135,11 @@
         .introductionImg { 
             background-image: none;
         }
+    }
+}
+
+@media (max-width: 1000px){
+    .triangle {
+        display: none;
     }
 }

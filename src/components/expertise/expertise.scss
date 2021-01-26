@@ -4,6 +4,8 @@
     background-image: radial-gradient(#2d599e12, white);
     padding: 28px 0;
     color: $male-dark;
+    position: relative;
+    overflow: hidden;
 
     > h2 {
         font-family: Bebas Neue;
@@ -50,6 +52,24 @@
     
         &.fade-in {
             animation: fade-in 2s;
+        }
+    }
+
+    .triangle {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: $male-light;
+
+        &.triangle1 {
+            top: -102px;
+            left: -104px;
+            transform: rotate(45deg);
+        }
+        &.triangle2 {
+            top: -102px;
+            right: -104px;
+            transform: rotate(45deg);
         }
     }
 

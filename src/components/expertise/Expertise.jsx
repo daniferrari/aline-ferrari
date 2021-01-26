@@ -11,6 +11,10 @@ function Expertise () {
     
     return (
         <div id="expertise" className="expertise">
+
+            <div className="triangle triangle1"></div>
+            <div className="triangle triangle2"></div>
+
             <h2>AREAS DE ATUAÇÃO</h2>
 
             <div className="itemsContainer hidden">
